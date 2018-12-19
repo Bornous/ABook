@@ -1,0 +1,30 @@
+.redText{
+	background-color:red; 
+	color:red;
+	margin:2px;
+	border:2px solid black;
+}
+
+.redText span{
+	background-color:#00000000;
+
+}
+.revealedText span{
+	padding:4px 10px;
+}
+.revealedText{
+	background-color:grey;
+	color:black;
+	width:calc(100% - 14px);
+	padding: 7px;
+	text-align:left;
+}
+
+.dialog_1{
+	background-color:#eeffeedd;
+
+}
+.dialog_2{
+	background-color:#eeeeffdd;
+
+}
