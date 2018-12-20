@@ -1,3 +1,18 @@
+/*
+*		General
+*/
+.clear_both{
+	clear:both;
+}
+
+/*
+*		Book
+*/
+body{
+	background-color:#070001;
+
+}
+
 .redText{
 	background-color:red; 
 	color:red;
@@ -9,22 +24,49 @@
 	background-color:#00000000;
 
 }
+
 .revealedText span{
 	padding:4px 10px;
 }
+
+.book :first-child{
+	padding-top:15px;
+	border-radius:15px 15px 0px 0px;
+}
+
+.revealedText :first-child{
+	padding-top:7px;
+	border-radius:0px;
+}
 .revealedText{
-	background-color:grey;
-	color:black;
+	background-color:#1b152c;
+	color:white;
 	width:calc(100% - 14px);
 	padding: 7px;
 	text-align:left;
 }
 
 .dialog_1{
-	background-color:#eeffeedd;
+/*	background-color:#eeffeedd;*/
+	background-color:#ddffcc65;
 
 }
 .dialog_2{
-	background-color:#eeeeffdd;
+	background-color:#ddccff65;
+
+}
+
+.book{
+	float:left;
+	width:75%;
+}
+
+.right_runes{
+	float:right;
+	width:25%;
+}
+
+.right_runes img{
+	width:100%;
 
 }
